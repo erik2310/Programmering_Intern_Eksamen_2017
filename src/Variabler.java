@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Variabler {
 
     // Erklæring og initialisering af en instans variabel
@@ -19,13 +17,6 @@ public class Variabler {
         // Udskriver intTal værdien
         System.out.println(intTal);
 
-        // Laver et objekt af klassen Scanner
-        Scanner input = new Scanner(System.in);
 
-        // Gemmer brugerens input i en int variabel
-        int gemtInput = input.nextInt();
-
-        // Udskriver brugerens input
-        System.out.println(gemtInput);
     }
 }
